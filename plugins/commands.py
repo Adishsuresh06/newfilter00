@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs', url='https://t.me/CinemaVeed')
+                InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs', url='https://t.me/+vbZdgwFqa5A0MDg1')
             ],
             [
                 InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
@@ -31,7 +31,7 @@ async def start(client, message):
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
-        await client.send_sticker(chat_id=message.chat.id, sticker='CAACAgUAAxkBAAJc-GIfWR3hIR_5MRjwkOdkT41wrBcHAAIVAQACyJRkFGZEMKKnFWwTHgQ', reply_markup=reply_markup, reply_to_message_id=message.message_id)
+        await client.send_sticker(chat_id=message.chat.id, sticker='CAACAgIAAxkBAAECoitircVGY6HD1bUf5wSJZ-o8XKwYzgACXwEAAiteUwsS0uNmnnDHix4E', reply_markup=reply_markup, reply_to_message_id=message.message_id)
         await asyncio.sleep(60)
         if not await db.get_chat(message.chat.id):
             total=await client.get_chat_members_count(message.chat.id)
@@ -50,10 +50,10 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('🔍sᴇᴀʀᴄʜ ʜᴇʀᴇ ᴍᴏᴠɪᴇ🔎', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('ᴅᴇᴠᴇʟᴏᴘᴇʀ', url='https://t.me/nishn_ea'),
+            InlineKeyboardButton('ᴅᴇᴠᴇʟᴏᴘᴇʀ', url='https://t.me/LoVe_MySeLf_168'),
             InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/CinemaVeed')
             ],[
-            InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ', url='https://t.me/VintageBotz'),
+            InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ', url='https://t.me/+vbZdgwFqa5A0MDg1'),
             ],[
             InlineKeyboardButton('✗ ᴄʟᴏsᴇ ᴛʜᴇ ᴍᴇɴᴜ ✗' , callback_data='close_data')
         ]]
@@ -106,10 +106,10 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('🔍sᴇᴀʀᴄʜ ʜᴇʀᴇ ᴍᴏᴠɪᴇ🔎', switch_inline_query_current_chat='')
             ],[
-            InlineKeyboardButton('ᴅᴇᴠᴇʟᴏᴘᴇʀ', url='https://t.me/nishn_ea'),
-            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/CinemaVeed')
+            InlineKeyboardButton('ᴅᴇᴠᴇʟᴏᴘᴇʀ', url='https://t.me/LoVe_MySeLf_168'),
+            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/HLS_MEDIA_OFFICIAL_GROUP')
             ],[
-            InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ', url='https://t.me/VintageBotz'),
+            InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ', url='https://t.me/+vbZdgwFqa5A0MDg1'),
             ],[
             InlineKeyboardButton('✗ ᴄʟᴏsᴇ ᴛʜᴇ ᴍᴇɴᴜ ✗' , callback_data='close_data')
         ]]
@@ -258,11 +258,11 @@ async def start(client, message):
         f_caption = f"{files.file_name}"
     buttons = [
         [
-            InlineKeyboardButton('𝑮𝒓𝒐𝒖𝒑', url='https://t.me/CinemaVeed'),
-            InlineKeyboardButton('𝑫𝒆𝒗𝒆𝒍𝒐𝒑𝒆𝒓', url='https://t.me/nishn_ea')
+            InlineKeyboardButton('𝑮𝒓𝒐𝒖𝒑', url='https://t.me/HLS_MEDIA_OFFICIAL_GROUP'),
+            InlineKeyboardButton('𝑫𝒆𝒗𝒆𝒍𝒐𝒑𝒆𝒓', url='https://t.me/LoVe_MySeLf_168')
         ],
         [
-            InlineKeyboardButton('𝑪𝒉𝒂𝒏𝒏𝒆𝒍', url=f'https://t.me/cvbot_update')
+            InlineKeyboardButton('𝑪𝒉𝒂𝒏𝒏𝒆𝒍', url=f'https://t.me/+Y30PwB7CwnY0ZGY1')
         ]
         ]
     await client.send_cached_media(
